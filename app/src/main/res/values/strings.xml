@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">Enviro</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="confrim_password">Confirm Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_for_signup">Enter here to sign up</string>
+    <string name="or">OR</string>
+    <string name="have_no_account">Dont you have an account?</string>
+    <string name="signup_now">Sign up NOW!</string>
+    <string name="email">Email</string>
+    <string name="using_facebook">Login Using Facebook</string>
+    <string name="using_gmail">Login Using Gmail</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="create_account">Create Account</string>
+    <string name="title_activity_category" translatable="false">CategoryActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="categories">Categories</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="settings">Settings</string>
+    <string name="menu_category" translatable="false">Menu Categories</string>
+    <string name="profile" translatable="false">Profile</string>
+    <string name="menu_profile" translatable="false">Profile</string>
+    <string name="menu_Orders" translatable="false">Orders</string>
+    <string name="night_theme" translatable="false">Night Mode</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="menu_settings" translatable="false">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="enviro">Enviro</string>
+    <string name="splash_welcome">welcome Our Community</string>
+
+
+</resources>

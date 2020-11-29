@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confrim_password">تأكيد كلمة المرور</string>
+    <string name="enter_for_signup">اضغط هنا لحساب جديد</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="or">أو</string>
+    <string name="have_no_account">لا تملك حساباَ بعد؟</string>
+    <string name="signup_now">سجل الآن!</string>
+    <string name="email">الإيميل</string>
+    <string name="using_facebook">التسجيل باستخدام فيسبوك</string>
+    <string name="using_gmail">التسجيل باستخدام البريد الإلكتروني</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="create_account">تسجيل حساب جديد</string>
+    <string name="shopping_cart">سلة المشتريات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="categories">التصنيفات</string>
+
+
+</resources>
