@@ -39,6 +39,9 @@
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="enviro">Enviro</string>
     <string name="splash_welcome">welcome Our Community</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="menu_home">Home</string>
 
 
 </resources>
