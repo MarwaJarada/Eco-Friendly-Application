@@ -41,9 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
                 .setDrawerLayout(drawer)
                 .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-        NavigationUI.setupWithNavController(navigationView, navController);
+        getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment, new CategoriesFragment()).commit();
+//        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+//        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
+//        NavigationUI.setupWithNavController(navigationView, navController);
     }
 
     private void initiateView() {
@@ -73,13 +74,13 @@ public class MainActivity extends AppCompatActivity {
             public void onTabSelected(TabLayout.Tab tab) {
                 switch (tab.getPosition()){
                     case 0:
-                        //TODO: show categories fragment
+                        getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment, new CategoriesFragment()).commit();
                         break;
                     case 1:
-                        //TODO: show shopping cart fragment
+                        getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment, new ShoppingCartFragment()).commit();
                         break;
                     case 2:
-                        //TODO: show profile fragment
+                        getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment,new ProfileFragment()).commit();
                         break;
 
                 }
